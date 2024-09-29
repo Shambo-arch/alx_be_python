@@ -14,7 +14,7 @@ def main():
         if choice == '1':
             item = input("Enter the name of the item to add: ")
             shopping_list.append(item)
-            print(f"'{item} Shopping List Manager.")
+            print(f"'{item} Shopping List Manager '{item}'.")
         
         elif choice == '2':
             item = input("Enter the name of the item to remove: ")
